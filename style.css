@@ -1,0 +1,154 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background-image: url(eecucover.jfif);
+    background-position: absolute;
+    background-size: cover;
+    background-attachment:fixed;
+    background-repeat: no-repeat ;
+}
+
+#herotext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2%;
+    background-color: #5EAFF2;
+    padding-bottom: 2%;
+}
+
+#texthero{
+ margin-top: 2%;
+
+}
+
+.careers {
+    background-color: #5EAFF2;
+    max-width:25%;
+    padding:0 4%;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: flex-start;
+}
+.careers h1{
+    width: 100%;
+    text-align: center;
+    font-size: 280%;
+    
+    
+}
+.careers h3{
+    font-size: x-large;
+    width: 100%;
+    text-align: center;
+    padding-top: 2em;
+}
+.careers a{
+    align-self: flex-end;
+    margin-top: 20%;
+
+
+}
+
+
+
+.payment-reductions {
+    background-color: #5EAFF2;
+    max-width: 25%;
+    padding: 3em;
+    display:flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    
+
+}
+
+.dropdown-container {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border: 1px black solid;
+    display: flex;
+    margin-right: -1%;
+    flex-flow: column wrap;
+    max-width:max-content;
+    background-color: white;
+    
+    
+}
+
+.dropdown-container h2 {
+    margin-left: 1em;
+}
+
+.dropdown-container input {
+    margin-left: 1em;
+}
+
+.line {
+    margin-top: 0.5em;
+    height: 0.1em;
+    width: 100%;
+    background-color: black;
+}
+
+.Split {
+    display: flex;
+    justify-content: space-around;
+}
+#bd-container{
+    padding: 2% 0;
+   
+}
+#monthly-bd{
+    border: #686868 .5rem solid;
+    background-color: white;
+    border-collapse: collapse;
+    padding: 2%;
+    margin-right: 6em;
+}
+#monthly-bd tr{
+    padding: 2%;
+    border-bottom: black .2rem solid;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+#monthly-bd td{
+    width: 100%;
+    font-size: 2vh;
+}
+.btn{
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    padding: 2%;
+
+
+}
+
+h2 {
+    font-size: 2.8em;
+}
+
+.taxCalc th {
+    font-size: 1.6vh;
+}
+
+.brkdwn {
+    margin-top:1em ;
+    margin-right: 0.5em;
+}
+
+#monthly-bd tr td {
+    padding: 2em;
+}
+
+#monthly-bd #chart {
+    font-size: 2em;
+}

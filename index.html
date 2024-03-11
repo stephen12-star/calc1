@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <h1 id="herotext">
+        <p id="texthero">EECU Budget Breakdown</p>
+    </h1>
+    <top id="top">
+        <section class="Split">
+            <section class="careers">
+                <h1>Careers</h1>
+                <h3>Gross Annual Income</h3>
+                <a href=careers.html class="btn">
+                    Check out different careers
+                </a>
+                <br>
+            </section>
+            <section class="payment-reductions">
+                <h1>Payment Reductions</h1>
+                <p>Gross Monthly Income: <input id="grossMonthlyInput"></p>
+                <table class="taxCalc">
+                    <tr>
+                        <th>Federal Taxes</th>
+                        <th>$$ x 0.12</th>
+                        <th><input id="fedTaxInput" name="0"></th>
+                    </tr>
+                    <tr>
+                        <th>State Taxes</th>
+                        <th>$$ x 0.07</th>
+                        <th><input id="stateTaxInput" name="0"></th>
+                    </tr>
+                    <tr>
+                        <th>Social Security</th>
+                        <th>$$ x 0.062</th>
+                        <th><input id="socialSecInput" name="0"></th>
+                    </tr>
+                    <tr>
+                        <th>Medicare</th>
+                        <th>$$ x 0.0145</th>
+                        <th><input id="medicareInput" name="0"></th>
+                    </tr>
+                    <tr>
+                        <th>State Disablility</th>
+                        <th>$$ x 0.01</th>
+                        <th><input id="stateDisabilityInput" name="0"></th>
+                    </tr>
+                    <tr>
+                        <th>Retirement</th>
+                        <th>$$ x 0.05</th>
+                        <th><input id="retireInput" name="0"></th>
+                    </tr>
+                    <tr>
+                        <th>Medical Insurance</th>
+                        <th>$$ - $180</th>
+                        <th><input id="medInsuranceInput" name="0"></th>
+                    </tr>
+                </table>
+                Total Deduction: <input id="totalDeduction" name="0">
+            </section>
+        </section>
+    </top>
+    <bottom class="Split">
+        <section class="dropdown-container">
+
+            <section class="net-monthly-income">
+                <h2>Net Monthly Income</h2>
+                <input id="monthly-income-input" type="text" placeholder="$0">
+                <div class="line"></div>
+            </section>
+
+            <section>
+                <h2>Entertainment</h2>
+                <input id="entertainment-input" type="text" placeholder="-$0">
+                <div class="line"></div>
+            </section>
+
+            <section>
+                <h2>Bills</h2>
+                <input id="bills-input" type="text" placeholder="-$0">
+                <div class="line"></div>
+            </section>
+
+
+            <section>
+                <h2>Savings</h2>
+                <input id="savings-input" type="text" placeholder="-$0">
+                <div class="line"></div>
+            </section>
+
+
+            <section>
+                <h2>Expenses</h2>
+                <input id="expenses-input" type="text" placeholder="-$0">
+                <div class="line"></div>
+            </section>
+
+            <section>
+                <h2>Debts</h2>
+                <input id="debt-input" type="text" placeholder="-$0">
+                <div class="line"></div>
+            </section>
+
+        </section>
+        <section class="brkdwn">
+
+            <table id="monthly-bd">
+                <th id="chart">
+                    Monthly Breakdown
+                </th>
+                <tr>
+                    <td>Monthly Income</td>
+                    <td>$0</td>
+                </tr>
+                <tr>
+                    <td>Monthly Expenses</td>
+                    <td>$0</td>
+                </tr>
+                <tr>
+                    <td>Monthly Savings</td>
+                    <td>$0</td>
+                </tr>
+            </table>
+        </section>
+    </bottom>
+
+</body>
+
+</html>
